@@ -14,31 +14,11 @@ vector<int> func(int n) {
 
 int32_t main()
 {
-
-#ifndef ONLINE_JUDGE
-freopen("input.txt", "r", stdin);
-freopen("output.txt", "w", stdout);
-#endif
-
-    {
-        int n;
-        cin>>n;
-        vector<int> v(func(n));
-        for(int i=0;i<v.size();i++)
+         int n;
+         cin>>n;
+         vector<int> v(func(n));
+         for(int i=0;i<v.size();i++)
             cout<<v[i]<<" ";
-    }
+         
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
