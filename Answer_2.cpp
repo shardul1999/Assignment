@@ -14,13 +14,6 @@ vector<int> func(int n) {
 
 int32_t main()
 {
-
-#ifndef ONLINE_JUDGE
-freopen("input.txt", "r", stdin);
-freopen("output.txt", "w", stdout);
-#endif
-
-    {
         int n;
         cin>>n;
         int a[n];
@@ -43,6 +36,6 @@ freopen("output.txt", "w", stdout);
             cout<<"Right";
         else
             cout<<"Wrong";
-    }
+
     return 0;
 }
